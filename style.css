@@ -1,0 +1,35 @@
+.{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.gallery {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-auto-rows: auto;
+    gap: 75px;
+    background-color: rgb(251, 235, 199);
+
+    
+}
+
+img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+    background-color: rgb(201, 200, 199);
+}
+
+p{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
